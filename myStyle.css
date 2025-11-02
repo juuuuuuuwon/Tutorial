@@ -6,7 +6,7 @@
 
 body{
     background-color: rgb(34, 34, 34);
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 #mainContents{
@@ -24,6 +24,7 @@ body{
 .row2 { 
     height: 435px;
     width: 100%;
+    display:flex; 
 }
 
 .img-wrap {
@@ -46,26 +47,6 @@ body{
     display: none;
 }
 
-.move-right {
-    position: relative;
-    left: 500px;     
-}
-
-.move-right2 {
-    position: relative;
-    left: 60px;        
-}
-
-.move-right3 {
-    position: relative;
-    left: 650px;     
-}
-
-.move-right4 {
-    position: relative;
-    left: 700px;     
-}
-
 .move-up {
     position: relative;
     top: -50px;       
@@ -80,12 +61,6 @@ body{
     position: relative;
     top: -200px;       
 }
-
-.move-down {
-    position: relative;
-    top: 150px;         
-}
-
 
 .col1{width: 8.3%; padding:0.2rem;}
 .col2{width: 16.6%; padding: 0.2rem;}
