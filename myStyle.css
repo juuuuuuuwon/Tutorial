@@ -5,8 +5,7 @@
 }
 
 body{
-    background-color: rgb(34, 34, 34);
-    overflow-x: hidden; 
+    background-color: rgb(34, 34, 34); 
 }
 
 #mainContents{
@@ -80,5 +79,6 @@ body{
 .h-20{height:20px;}
 .h-40{height:40px;}
 .h-50{height:50px;}
+
 
 
