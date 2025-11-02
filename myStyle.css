@@ -1,0 +1,109 @@
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    overflow-x: hidden;
+}
+
+#mainContents{
+    width: 1080px;
+    margin: 0 auto;
+    background-image: url(img/base.png);
+}
+
+.row{
+    width: 100%; 
+    display:flex; 
+    justify-content: center;
+}
+
+.row2 { 
+    height: 435px;
+    width: 100%;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.img-wrap img {
+    position: absolute;
+}
+
+.img-wrap .hover {
+    display: none;
+}
+
+.img-wrap:hover .hover {
+    display: block;
+}
+
+.img-wrap:hover .normal {
+    display: none;
+}
+
+.move-right {
+    position: relative;
+    left: 500px;     
+}
+
+.move-right2 {
+    position: relative;
+    left: 60px;        
+}
+
+.move-right3 {
+    position: relative;
+    left: 650px;     
+}
+
+.move-right4 {
+    position: relative;
+    left: 700px;     
+}
+
+.move-up {
+    position: relative;
+    top: -50px;       
+}
+
+.move-up2 {
+    position: relative;
+    top: -170px;       
+}
+
+.move-up3 {
+    position: relative;
+    top: -200px;       
+}
+
+.move-down {
+    position: relative;
+    top: 150px;         
+}
+
+
+.col1{width: 8.3%; padding:0.2rem;}
+.col2{width: 16.6%; padding: 0.2rem;}
+.col3{width: 24.9%; padding: 0.2rem;}
+.col4{width: 33.2%; padding: 0.2rem;}
+.col5{width: 41.5%; padding: 0.2rem;}
+.col6{width: 49.8%; padding: 0.2rem;}
+.col7{width: 58.1%; padding: 0.2rem;}
+.col8{width: 66.4%; padding: 0.2rem;}
+.col9{width: 74.7%; padding: 0.2rem;}
+.col10{width: 83%; padding: 0.2rem;}
+.col11{width: 91.3%; padding: 0.2rem;}
+.col12{width: 100%; padding: 0.2rem;}
+
+.h-100{height:100px;}
+.h-80{height:80px;}
+.h-20{height:20px;}
+.h-40{height:40px;}
+.h-50{height:50px;}
+
+
